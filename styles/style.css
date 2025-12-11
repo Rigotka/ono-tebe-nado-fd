@@ -1,1 +1,27 @@
-/* место для вашего кода */
+.content-section {
+  box-sizing: border-box;
+  min-height: 100px;
+  background-color: gray;
+}
+
+.header {
+  min-height: 293px;
+}
+
+.cover {
+  min-height: 757px;
+  background-color: darkgray;
+}
+
+.lots {
+  margin: 180px 24px 0px;
+}
+
+.about {
+  margin: 120px 24px 0px;
+}
+
+.footer {
+  min-height: 180px;
+  margin-top: 180px;
+}
