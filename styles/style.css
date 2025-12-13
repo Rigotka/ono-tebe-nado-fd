@@ -62,18 +62,18 @@
   background-image: url("../images/cover.jpg");
   background-position: center;
   background-size: cover;
+  z-index: 1;
 }
 
 .overlay {
   position: absolute;
   inset: 0;
-  z-index: 1;
+  z-index: -1;
   background-color: rgba(0, 0, 0, 0.6);
 }
 
 .cover__title {
   position: relative;
-  z-index: 2;
   display: flex;
   flex-direction: column;
   gap: 17px;
@@ -107,7 +107,6 @@
 
 .cover__description {
   position: relative;
-  z-index: 2;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -173,6 +172,7 @@
   color: #fff;
   background-position: center;
   background-size: cover;
+  z-index: 1;
 }
 
 .card_type_film {
@@ -189,7 +189,6 @@
 
 .card__title {
   position: relative;
-  z-index: 2;
   font-weight: bold;
   font-size: 22px;
   line-height: 1.2em;
@@ -200,7 +199,6 @@
 
 .card__text {
   position: relative;
-  z-index: 2;
   font-size: 20px;
   line-height: 1.2em;
 }
@@ -268,12 +266,12 @@
   margin: 2px;
 }
 
-.footer__menu-link {
+.footer__link {
   font-size: 18px;
   text-underline-offset: 4px;
 }
 
-.footer__menu-link_active {
+.footer__link-active {
   text-decoration: none;
 }
 
